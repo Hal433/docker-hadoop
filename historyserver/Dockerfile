@@ -1,5 +1,5 @@
 # Dockerfile for Hadoop historyserver.
-FROM bwv988/hadoop-base
+FROM hal433/hadoop-base
 
 ENV YARN_CONF_yarn_timeline___service_leveldb___timeline___store_path=/hadoop/yarn/timeline
 RUN mkdir -p /hadoop/yarn/timeline

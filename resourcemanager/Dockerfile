@@ -1,6 +1,6 @@
 # Dockerfile for Hadoop resourcemanager.
 
-FROM bwv988/hadoop-base
+FROM hal433/hadoop-base
 
 COPY files/resourcemanager-run.sh /entrypoints/resourcemanager-run.sh
 RUN chmod a+x /entrypoints/resourcemanager-run.sh

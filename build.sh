@@ -15,7 +15,7 @@ function build_img() {
   popd
 }
 
-IMGPREFIX=bwv988
+IMGPREFIX=hal433
 
 build_img $IMGPREFIX base
 build_img $IMGPREFIX namenode
